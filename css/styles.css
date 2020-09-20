@@ -1,0 +1,213 @@
+body{
+  font-family: "Montserrat"
+}
+
+/* heads titles  */
+h1, h2 ,h3 ,h4 ,h5 ,h6{
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.2rem;
+}
+
+/* Navigtion bar */
+
+.navbar{
+  padding : 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+/* main title section */
+#title {
+  background-color: #ff4c68;
+  color:white;
+
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+
+}
+.main-title{
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  width: 90%;
+  font-weight: bold;
+
+}
+.img-download{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  bottom: 2px;
+  right: 4px;
+}
+.col-title{
+  margin: 8% 0;
+}
+.img-rotated{
+  transform: rotate(20deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+
+}
+
+
+/* button downlod */
+
+.dwonload-btn{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* --- features section----*/
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+
+
+}
+
+.colum{
+  text-align: center;
+  padding: 5%;
+}
+
+.description {
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+
+}
+.icon:hover {
+  color: #ff4c68;
+
+}
+
+/*-- Testimonials section --*/
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+/* pricing sction*/
+
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+
+}
+
+
+.pricing-title{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.paricing-column{
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+
+#cta {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ff4c68;
+  color: white;
+  font-size: 3.5rem;
+}
+
+.bottom-bar{
+  padding: 8% 15% 8%;
+}
+
+/* Footer */
+
+#footer{
+  text-align: center;
+  background-color: white;
+  padding-bottom: 5%;
+
+
+}
+
+.con{
+  margin: 0% 45%;
+  padding-top: 5%;
+}
+.icon {
+  padding: 3% 3% 3%;
+}
+
+.coll{
+  flex:auto;
+}
+
+/* quruet sets */
+
+@media (max-width: 1028px) {
+  #title {
+  text-align: center;
+}
+
+  .img-rotated {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
